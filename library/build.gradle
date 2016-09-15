@@ -13,6 +13,9 @@
 // limitations under the License.
 
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.Nicrob64'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
